@@ -30,6 +30,42 @@
     <main>
         <div class="searchblock">
             <div class="title"><h1 class="gradient_text">Больше,чем просто поездка</h1></div>
+            <form>
+                <div class="searchbar">
+                    <select name="from" class="depart_place">
+                        <option value="">Место прибытия</option>
+                        <option value="Kazan">🇷🇺&emsp; Казань</option>
+                        <option value="Moscow">🇷🇺&emsp; Москва</option>
+                        <option value="London">🇬🇧&emsp; Лондон</option>
+                        <option value="Tokyo">🇯🇵&emsp; Токио</option>
+                        <option value="New-York">🇺🇸&emsp; Нью-Йорк</option>
+                        <option value="Seoul">🇰🇷&emsp; Сеул</option>
+                        <option value="Paris">🇫🇷&emsp; Париж</option>
+                        <option value="Mexico">🇲🇽&emsp; Мехико</option>
+                    </select>
+                    <select name="to" class="arrival_place">
+                        <option value="">Место отправления</option>
+                        <option value="Kazan">🇷🇺&emsp; Казань</option>
+                        <option value="Moscow">🇷🇺&emsp; Москва</option>
+                        <option value="London">🇬🇧&emsp; Лондон</option>
+                        <option value="Tokyo">🇯🇵&emsp; Токио</option>
+                        <option value="New-York">🇺🇸&emsp; Нью-Йорк</option>
+                        <option value="Seoul">🇰🇷&emsp; Сеул</option>
+                        <option value="Paris">🇫🇷&emsp; Париж</option>
+                        <option value="Mexico">🇲🇽&emsp; Мехико</option>
+                    </select>
+                    <input class="depart-return" id="depart" type="date">
+                    <input class="depart-return" id="return" type="date">
+                    <select name="passangers" class="n_passangers">
+                        <option value="">Количество мест</option>
+                        <option value="one">Один пассажир</option>
+                        <option value="two">Два пассажира</option>
+                        <option value="three">Три пассажира</option>
+                    </select>
+                    <button class="search_btn" type="reset">Поиск</button>
+                </div>
+            </form>
+
         </div>
         <div class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d42881714.255698316!2d81.17724079000575!3d49.00502702689404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1679931008300!5m2!1sru!2sru" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -75,5 +111,6 @@
             <p class="copyright">©️ 2023 FlyMeTotheMoon incorporated</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
