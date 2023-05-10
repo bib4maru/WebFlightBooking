@@ -99,3 +99,92 @@
     font-size: 12px;
     color: #7C8DB0;
 }
+.itemblock {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+}
+.item {
+    width: 225px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Размещаем элементы в колонку */
+    border-radius: 4px;
+    transition: 0.2s;
+    position: relative;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(28, 5, 77, 0.1), 0px 12px 32px rgba(0, 0, 0, 0.05);
+    border-radius: 12px; */
+}
+.item_top {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    flex: 0 0 220px; /* Задаем высоту 220px, запрещаем расширение и сужение по высоте */
+    position: relative;
+    overflow: hidden; /* Скрываем, что выходит за пределы */
+}
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1200px;
+    height: 40px;
+    border: 1px solid #CBD4E6;
+    box-shadow: 0px 2px 4px rgba(7, 4, 146, 0.1), 0px 24px 60px rgba(6, 47, 125, 0.05), 0px 12px 24px rgba(27, 59, 119, 0.05);
+    border-radius: 4px;
+}
+.depart_place {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 8px 12px;
+    width: 324.5px;
+    height: 40px;
+}
+.arrival_place {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 324.5px;
+    height: 40px;
+}
+.depart-return {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 8px 12px;
+    width: 126px;
+    height: 21px;
+}
+.n_passangers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 200px;
+    height: 40px;
+}
+.search_btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 20px;
+    width: 96px;
+    height: 40px;
+    background: #605DEC;
+    border-radius: 4px;
+    border-width: 1px;
+    color: white;
+}

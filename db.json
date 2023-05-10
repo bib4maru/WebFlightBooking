@@ -1,0 +1,54 @@
+[
+        {
+            "value": "Kazan",
+            "data" : "🇷🇺&emsp; Казань"
+        },
+        {
+            "value": "Moscow",
+            "data" : "🇷🇺&emsp; Москва"
+        },
+        {
+            "value": "London",
+            "data" : "🇬🇧&emsp; Лондон"
+        },
+        {
+            "value": "Tokyo",
+            "data" : "🇯🇵&emsp; Токио"
+        },
+        {
+            "value":"New-York",
+            "data" : "🇺🇸&emsp; Нью-Йорк"
+        },
+        {
+            "value": "Paris",
+            "data" : "🇫🇷&emsp; Париж"
+        },
+        {
+            "value": "Mexico",
+            "data" : "🇲🇽&emsp; Мехико"
+        },
+        {
+            "value": "Stambul",
+            "data" : "🇹🇷&emsp; Стамбул"
+        },
+        {
+            "value": "Rome",
+            "data" : "🇮🇹&emsp; Рим"
+        },
+        {
+            "value": "Prague",
+            "data" : "🇨🇿&emsp; Прага"
+        },
+        {
+            "value": "Shanghai",
+            "data" : "🇨🇳&emsp; Шанхай"
+        },
+        {
+            "value": "Budapest",
+            "data" : "🇭🇺&emsp; Будапешт"
+        },
+        {
+            "value": "Berlin",
+            "data" : "🇩🇪&emsp; Берлин"
+        }
+]
